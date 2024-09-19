@@ -1,0 +1,17 @@
+{
+  "name": "designer-john",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded src/scss:dist/css",
+    "build": "sass src/scss:dist/css && copyfiles -u 1 src/**/*.html src/**/*.js src/img/**/* dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "sass": "^1.70.0"
+  }
+}
